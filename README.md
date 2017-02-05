@@ -1,5 +1,5 @@
-# javafx-boilerplate-hibernate
-A boilerplate project for JavaFX development with JPA and hibernate showing a simple object life cycle. Features:
+# javafx-boilerplate-hibernate-lifecycle
+A boilerplate project for JavaFX development with JPA and hibernate. It shows some real world use cases relevant for `association lifecycle`. I felt most tutorials on the web lacking this complete lifecycle and are almost useless therefore. Features:
 
 - guice DI integration with gluonhq's ignite
 - a sample for communication between two controllers
@@ -9,8 +9,9 @@ A boilerplate project for JavaFX development with JPA and hibernate showing a si
 - h2 database is created, schema is created automatically. See `persistence.xml`
 - jpa guice provider
 - GenericDAO sample
+- Lifecycle of association in real world use cases: GUI
 
-This project is not meant to be a full fleged template. Rather it is a snapshot of a bigger project I'm working on. The key-features are ported into this template. For it contains bugs and misconceptions. Especially the included GenericDAO needs further work.
+This project is not meant to be a full fledged template. Rather it is a snapshot of a bigger project I'm working on. The key-features are ported into this template. For it contains bugs and misconceptions. Especially the included GenericDAO needs further work.
 
 There are a vast of libraries included:
 
@@ -31,4 +32,4 @@ There are a vast of libraries included:
 | org.kohsuke:wordnet-random-name:1.3       | Create random names used for random person generator           |
 
 
-See [javafx-boilerplate-hibernate](https://github.com/No3x/javafx-boilerplate/hibernate) for a basic example wit JPA and hibernate.
+See [javafx-boilerplate-hibernate](https://github.com/No3x/javafx-boilerplate-hibernate) for an example with JPA and hibernate.
